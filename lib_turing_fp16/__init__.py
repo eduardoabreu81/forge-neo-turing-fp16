@@ -58,12 +58,8 @@ def install() -> bool:
         return chosen
 
     inference_cast._turing_fp16 = True
+    # the loader calls it through the module (memory_management.inference_cast), so the module's name is enough
     mm.inference_cast = inference_cast
-    # the loader imported it by name
-    from backend import loader
-
-    if getattr(loader.memory_management, "inference_cast", None) is not inference_cast:
-        loader.memory_management.inference_cast = inference_cast
     return True
 
 
