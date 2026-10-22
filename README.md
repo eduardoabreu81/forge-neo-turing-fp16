@@ -12,8 +12,10 @@
 
 Faster generation on GPUs without bfloat16 (RTX 20 series, Titan RTX, GTX 16 and older): models that Forge Neo would run in float32 run in float16 instead.
 
-> [!Warning]
-> **Draft - not tested on a GPU yet.**
+<p align="center"><img src=".github/images/moss-fp32-vs-fp16.jpg" alt="The same MOSS-Image portrait made in float32 (33 seconds) and in float16 with the extension (16 seconds) on an RTX 2070" width="720"></p>
+
+> [!Note]
+> Tested on an RTX 2070 (8 GB), Forge Neo 2.31: Forge Neo's own MOSS-Image (SFT, INT8, 8-step LoRA, 1024x1024) went from 33 to 16 seconds a picture, the same picture up to small details. Other models have not been tested yet.
 
 ---
 
