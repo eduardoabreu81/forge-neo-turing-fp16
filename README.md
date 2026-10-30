@@ -19,6 +19,8 @@ Faster generation on GPUs without bfloat16 (RTX 20 series, Titan RTX, GTX 16 and
 > - INT8 (SFT with the 8-step LoRA, or the hypermosslush turbo merge): 32-33 to 16 seconds a picture
 > - BF16 (Refined Realism v2 merge): 78 to 24 seconds a picture
 >
+> On a Titan RTX (24 GB), [measured by mirabarukaso](https://github.com/eduardoabreu81/forge-neo-turing-fp16/issues/1): MOSS-Image SFT BF16 with the 8-step LoRA runs at about 1.95 seconds a step and takes 9.7 GB of video memory instead of 19.4 GB in float32
+>
 > Other models have not been tested yet.
 
 ---
