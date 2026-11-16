@@ -53,3 +53,15 @@ The console says `[Turing FP16] no bfloat16 on this GPU: computing in float16 in
 ## 📜 License
 
 AGPL-3.0 - see [LICENSE](LICENSE)
+
+---
+
+<div align="center">
+
+Made with ❤️ for the Stable Diffusion community
+
+**[Report Bug](https://github.com/eduardoabreu81/forge-neo-turing-fp16/issues)** • **[Request Feature](https://github.com/eduardoabreu81/forge-neo-turing-fp16/issues)** • **[☕ Ko-fi](https://ko-fi.com/eduardoabreu81)**
+
+<sub>More Forge Neo extensions at <a href="https://eduardoabreu81.github.io/">eduardoabreu81.github.io</a></sub>
+
+</div>
