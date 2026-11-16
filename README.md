@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/banner.jpg" alt="Turing FP16 for Forge Neo banner"/>
+</p>
+
 # ⚡ Turing FP16 for Forge Neo
 
 <div align="center">
